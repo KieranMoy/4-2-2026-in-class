@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Generated Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    input {
+      padding: 10px;
+      width: 70%;
+    }
+
+    button {
+      padding: 10px;
+    }
+
+    .output {
+      margin-top: 20px;
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My First AI Generated Website</h1>
+
+  <input id="inputBox" placeholder="Type something..." />
+  <button onclick="showMessage()">Submit</button>
+
+  <div id="output" class="output"></div>
+
+  <script>
+    function showMessage() {
+      const text = document.getElementById("inputBox").value;
+      document.getElementById("output").innerText = "You entered: " + text;
+    }
+  </script>
+
+</body>
+</html>
