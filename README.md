@@ -1,6 +1,6 @@
 # First AI Generated Code
 
-**Netid:** 2587187  
+**Netid:** kiemoy@uw.edu  
 **Name:** Kieran Moynihan  
 **GitHub Repository:** [https://github.com/your-username/4-2-2026-in-class](https://github.com/KieranMoy/4-2-2026-in-class)  
 **Deployed Site:** N/A  
