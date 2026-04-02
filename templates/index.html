@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Generated Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 16px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .output {
+            margin-top: 25px;
+            padding: 15px;
+            background: #f4f4f4;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My First AI Generated Website</h1>
+    <p>This is a simple Flask website created with AI help and stored on GitHub.</p>
+
+    <form method="POST">
+        <input type="text" name="message" placeholder="Type a message here" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if message %}
+        <div class="output">
+            <strong>You entered:</strong>
+            <p>{{ message }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>
