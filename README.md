@@ -4,4 +4,4 @@
 **Name:** Kieran Moynihan  
 **GitHub Repository:** [https://github.com/your-username/4-2-2026-in-class](https://github.com/KieranMoy/4-2-2026-in-class)  
 **Deployed Site:** N/A  
-**Idea:** A simple web app generated with AI that lets users enter text and see it displayed on the page. The goal was to practice using GitHub and AI to create a small working project.
+**Idea:** A simple AI-assisted Python website built with Flask that lets a user type in a message and display it on the page. The purpose of the project is to show a small working web app created with AI and stored in GitHub.
